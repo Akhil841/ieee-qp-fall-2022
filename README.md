@@ -1,17 +1,17 @@
-# Obstacle_avoidance_opencv
+# IEEE QP Fall 2022 Team 4 Code
 
-## Introduction to the Workshop
-The objective of this workshop is to build a rover (a robot with a set of moving wheels) and introduce Computer Vision using Raspberry Pi to the community in a fun and interactive way. This done by building an obstacle avoiding rover using OpenCV. A webcam will be fitted on a rover that will stream whatever it sees in its path into Python where we will process the capture with OpenCV to check for obstacles in its way and take evasive action. A full recap of OpenCV will take place during the workshop before combining both the efforts of OpenCV and the rover.
+## Introduction
+This repository contains Team 4's code for the IEEE Fall 2022 Quarterly Projects. An explanation for how it works and how the circuit should be set up is given below.
 
 ## Logic:<br/>
-![image](https://user-images.githubusercontent.com/10446090/44290427-ba9ef900-a289-11e8-87fb-860ffe66dd9a.png)
+![image](Block%20Diagram.jpg)
 
 
 ## Introduction to Computer Vision
 It is a field that deals with how computers can be made for gaining high-level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that a human can do.
 
 ## Installing Python and OpenCV using Anaconda
-![image](https://user-images.githubusercontent.com/10446090/44288410-52e4b000-a281-11e8-90b8-5a59a31a2be1.png)
+![image](Block Diagram.jpg)
 
 - A guide to installing Anaconda: https://conda.io/docs/user-guide/install/index.html <br/>
 - Steps to install OpenCV using Anaconda : https://anaconda.org/conda-forge/opencv <br/>
@@ -19,8 +19,6 @@ It is a field that deals with how computers can be made for gaining high-level u
 ## Installing Raspberry PI libraries
 
 ### Install Python 3 and PIP
-
-![image](https://user-images.githubusercontent.com/10446090/44288044-051b7800-a280-11e8-8bad-761a46389f79.png) <br/>
 
 Usually Python3 is pre-installed when you install Raspbian on your Raspberry PI. 
 But, not all Python packages are available in the Raspbian archives, and those that are can sometimes be out-of-date. If you can't find a suitable version in the Raspbian archives, you can install packages from the Python Package Index (PyPI). To do so, use the pip tool.
@@ -32,7 +30,6 @@ sudo apt-get install python3-pip
 ```
 
 ### OpenCV 
-![image](https://user-images.githubusercontent.com/10446090/44288007-ed43f400-a27f-11e8-9abc-64c846021529.png) <br/>
 
 OpenCV(Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision. <br/>
 
@@ -267,9 +264,6 @@ A simple way to see how you can setup to run python file on Raspberry Pi startup
 - now open a hidden file  .bashrc  ( type "sudo nano .bashrc" on terminal and press enter)
 - At the end of the file type "python" followed by your file name (eg: python3 speechtotext)
 - If you want the terminal to revert back to its normal format, either comment out the command on the .bashrc file or remove it (you can access the bash file in /home/pi).
-
-## Circuit Assembly
-![opencv_obstacle_avoid_bb](https://user-images.githubusercontent.com/32713072/44152058-6c95e9a6-a0b5-11e8-88ed-b0a5be95332e.jpg)
 
 
 
